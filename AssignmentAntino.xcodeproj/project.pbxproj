@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A1D17E086AA7A00FE780C05 /* Pods_AssignmentAntino.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 142C7499556507DB251CC54A /* Pods_AssignmentAntino.framework */; };
+		98B7D65223B759CE0050686A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B7D65123B759CE0050686A /* AppDelegate.swift */; };
+		98B7D65423B759CE0050686A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B7D65323B759CE0050686A /* SceneDelegate.swift */; };
+		98B7D65623B759CE0050686A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B7D65523B759CE0050686A /* ViewController.swift */; };
+		98B7D65923B759CE0050686A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98B7D65723B759CE0050686A /* Main.storyboard */; };
+		98B7D65B23B759D10050686A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98B7D65A23B759D10050686A /* Assets.xcassets */; };
+		98B7D65E23B759D10050686A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98B7D65C23B759D10050686A /* LaunchScreen.storyboard */; };
+		98B7D66623B7861C0050686A /* reusableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B7D66523B7861C0050686A /* reusableCell.swift */; };
+		98B7D66823B78ACF0050686A /* parsedDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B7D66723B78ACF0050686A /* parsedDataModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		142C7499556507DB251CC54A /* Pods_AssignmentAntino.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AssignmentAntino.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DCB890A3F23214DF84FA0C6 /* Pods-AssignmentAntino.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AssignmentAntino.release.xcconfig"; path = "Target Support Files/Pods-AssignmentAntino/Pods-AssignmentAntino.release.xcconfig"; sourceTree = "<group>"; };
+		6B0628BB50DB72F95D25F2D8 /* Pods-AssignmentAntino.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AssignmentAntino.debug.xcconfig"; path = "Target Support Files/Pods-AssignmentAntino/Pods-AssignmentAntino.debug.xcconfig"; sourceTree = "<group>"; };
+		98B7D64E23B759CE0050686A /* AssignmentAntino.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AssignmentAntino.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		98B7D65123B759CE0050686A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		98B7D65323B759CE0050686A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		98B7D65523B759CE0050686A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		98B7D65823B759CE0050686A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		98B7D65A23B759D10050686A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		98B7D65D23B759D10050686A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		98B7D65F23B759D10050686A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98B7D66523B7861C0050686A /* reusableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reusableCell.swift; sourceTree = "<group>"; };
+		98B7D66723B78ACF0050686A /* parsedDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = parsedDataModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98B7D64B23B759CE0050686A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A1D17E086AA7A00FE780C05 /* Pods_AssignmentAntino.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20CC93EA34494885E36325E7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6B0628BB50DB72F95D25F2D8 /* Pods-AssignmentAntino.debug.xcconfig */,
+				1DCB890A3F23214DF84FA0C6 /* Pods-AssignmentAntino.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		308120455549BEC9C745ABB6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				142C7499556507DB251CC54A /* Pods_AssignmentAntino.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		98B7D64523B759CE0050686A = {
+			isa = PBXGroup;
+			children = (
+				98B7D65023B759CE0050686A /* AssignmentAntino */,
+				98B7D64F23B759CE0050686A /* Products */,
+				20CC93EA34494885E36325E7 /* Pods */,
+				308120455549BEC9C745ABB6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		98B7D64F23B759CE0050686A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98B7D64E23B759CE0050686A /* AssignmentAntino.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98B7D65023B759CE0050686A /* AssignmentAntino */ = {
+			isa = PBXGroup;
+			children = (
+				98B7D65F23B759D10050686A /* Info.plist */,
+				98B7D67023B7CEFB0050686A /* Controller */,
+				98B7D66F23B7CED20050686A /* View */,
+				98B7D65A23B759D10050686A /* Assets.xcassets */,
+				98B7D67223B7CF190050686A /* Additional Files */,
+				98B7D67123B7CF0F0050686A /* Model */,
+			);
+			path = AssignmentAntino;
+			sourceTree = "<group>";
+		};
+		98B7D66F23B7CED20050686A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				98B7D65C23B759D10050686A /* LaunchScreen.storyboard */,
+				98B7D65723B759CE0050686A /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		98B7D67023B7CEFB0050686A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				98B7D65523B759CE0050686A /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		98B7D67123B7CF0F0050686A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				98B7D66723B78ACF0050686A /* parsedDataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		98B7D67223B7CF190050686A /* Additional Files */ = {
+			isa = PBXGroup;
+			children = (
+				98B7D65123B759CE0050686A /* AppDelegate.swift */,
+				98B7D65323B759CE0050686A /* SceneDelegate.swift */,
+				98B7D66523B7861C0050686A /* reusableCell.swift */,
+			);
+			path = "Additional Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		98B7D64D23B759CE0050686A /* AssignmentAntino */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98B7D66223B759D10050686A /* Build configuration list for PBXNativeTarget "AssignmentAntino" */;
+			buildPhases = (
+				A374EE75EB6EC49C92136B44 /* [CP] Check Pods Manifest.lock */,
+				98B7D64A23B759CE0050686A /* Sources */,
+				98B7D64B23B759CE0050686A /* Frameworks */,
+				98B7D64C23B759CE0050686A /* Resources */,
+				24D1F632E2B1B1F6809F02C4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AssignmentAntino;
+			productName = AssignmentAntino;
+			productReference = 98B7D64E23B759CE0050686A /* AssignmentAntino.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98B7D64623B759CE0050686A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Naman Sharma";
+				TargetAttributes = {
+					98B7D64D23B759CE0050686A = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 98B7D64923B759CE0050686A /* Build configuration list for PBXProject "AssignmentAntino" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 98B7D64523B759CE0050686A;
+			productRefGroup = 98B7D64F23B759CE0050686A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98B7D64D23B759CE0050686A /* AssignmentAntino */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		98B7D64C23B759CE0050686A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98B7D65E23B759D10050686A /* LaunchScreen.storyboard in Resources */,
+				98B7D65B23B759D10050686A /* Assets.xcassets in Resources */,
+				98B7D65923B759CE0050686A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24D1F632E2B1B1F6809F02C4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AssignmentAntino/Pods-AssignmentAntino-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AssignmentAntino/Pods-AssignmentAntino-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AssignmentAntino/Pods-AssignmentAntino-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A374EE75EB6EC49C92136B44 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AssignmentAntino-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		98B7D64A23B759CE0050686A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98B7D66623B7861C0050686A /* reusableCell.swift in Sources */,
+				98B7D66823B78ACF0050686A /* parsedDataModel.swift in Sources */,
+				98B7D65623B759CE0050686A /* ViewController.swift in Sources */,
+				98B7D65223B759CE0050686A /* AppDelegate.swift in Sources */,
+				98B7D65423B759CE0050686A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		98B7D65723B759CE0050686A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98B7D65823B759CE0050686A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		98B7D65C23B759D10050686A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98B7D65D23B759D10050686A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		98B7D66023B759D10050686A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		98B7D66123B759D10050686A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		98B7D66323B759D10050686A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B0628BB50DB72F95D25F2D8 /* Pods-AssignmentAntino.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U62U58S38T;
+				INFOPLIST_FILE = AssignmentAntino/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cypher.AssignmentAntino;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		98B7D66423B759D10050686A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DCB890A3F23214DF84FA0C6 /* Pods-AssignmentAntino.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U62U58S38T;
+				INFOPLIST_FILE = AssignmentAntino/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cypher.AssignmentAntino;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		98B7D64923B759CE0050686A /* Build configuration list for PBXProject "AssignmentAntino" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98B7D66023B759D10050686A /* Debug */,
+				98B7D66123B759D10050686A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98B7D66223B759D10050686A /* Build configuration list for PBXNativeTarget "AssignmentAntino" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98B7D66323B759D10050686A /* Debug */,
+				98B7D66423B759D10050686A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98B7D64623B759CE0050686A /* Project object */;
+}

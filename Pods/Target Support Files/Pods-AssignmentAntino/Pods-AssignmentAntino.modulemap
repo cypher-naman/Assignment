@@ -1,0 +1,6 @@
+framework module Pods_AssignmentAntino {
+  umbrella header "Pods-AssignmentAntino-umbrella.h"
+
+  export *
+  module * { export * }
+}
